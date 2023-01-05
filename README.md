@@ -12,7 +12,7 @@ I made this with vanilla VS Code. I'll continue to develop this project.
 ![](source-readme/logo1.jpg)
 
   
-## Used technologies
+## Used Technologies
 
 **Client:** Visual Studio Code
 
