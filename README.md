@@ -9,7 +9,7 @@ I made this with vanilla VS Code. I'll continue to develop this project.
 
 "Liberate Company" is a fictitious name and brand.
 
-
+![](source-readme/logo1.jpg)
 
   
 ## Used technologies
@@ -21,6 +21,9 @@ I made this with vanilla VS Code. I'll continue to develop this project.
   
 ## Main Menu
 
+Custom live menu:
+
+![](source-readme/main1.jpg)
 
 
   
