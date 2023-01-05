@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300;400;600;700;900&display=swap');
+
+body{
+    background-image: url("Assets/kevin2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+    
+    
+}
+.all-up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+}
+h1{
+    font-weight: bold;
+    padding-top: 75px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+   
+    
+}
+
+.header{
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    color: black;
+    padding: 30px;
+    font-weight: bold;
+    border: 50px solid black;
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    border-radius: 300px;
+    /* float: left; */
+
+    /* position: absolute;
+    top: 1%;
+    left: 13%;
+    transform: translate(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+}
+
+.menu{
+    font-size: 25px;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 20px;
+    height: 300px;
+    width: 1080px;
+    padding-top: 35px;
+    border: 0px solid black;
+    border-bottom: none;
+    border-top: none;
+    border-right: none;
+    border-radius: 0px;
+    /* float: left; */
+
+    /* position: absolute;
+    top: 1%;
+    left: 62%;
+    transform: translate(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+
+}
+ul { 
+    list-style-type:none;
+    display: flex;
+    width: 1000px;
+    background-color: black;
+    text-align: center;
+    margin-top: 100px;
+    border-radius: 15px;
+    height: 30;
+ }
+ li{
+    text-align: center;
+    margin-left: 75px;
+    display: block;
+    background-color: black;
+    border-radius: 15px;
+    width: 150px;
+    height: 30px;
+    
+ }
+ .menu ul li a{
+    text-align: center;
+    display: block;
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+ }
+ .menu li:hover{background-color: white; color: black;  }
+ .menu a:link { text-decoration: none; color: white; }
+ .menu a:visited { text-decoration: none; color: white; }
+ .menu a:hover { text-decoration: none; color:black; }
+
+
+ /*------------------------------------------------------ */
+
+ .slogan{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+ }
+ .big{
+    font-size: 5em;
+    color: white;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    /* font-family: 'Lobster', cursive */
+
+ }
+.small{
+    font-size: 2em;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
+.btn-start{
+    margin-top: 50px;
+    display: block;
+    width: 200px;
+    height: 25px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    position: relative;
+    overflow: hidden;
+}
+/* Hover classic burada */
+/* .btn-start:hover{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+
+} */
+.btn-start::after{
+    content: "Processing..";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.75s;
+    background-color: white;
+    color: black;
+
+}
+.btn-start:hover::after{
+    top: 0;
+}
+
+/* ABOUT */
+
+
+.about-header{
+    position: absolute;
+    top: 130%;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 3em;
+}
+.about-img{
+    position: absolute;
+    top: 155%;
+    left: 30%;
+    transform: translate(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.img1{
+ border-radius: 15px;
+}
+.about-header2{
+    position: absolute;
+    top: 155%;
+    left: 80%;
+    transform: translate(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.icon{
+    position: absolute;
+    top: 155%;
+    left: 80%;
+    transform: translate(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(11, 127, 169);;
+}
+.about-text{
+    position: absolute;
+    top: 160%;
+    left: 80%;
+    transform: translate(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/* kalip 1 */
+.kalip{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 250%;
+    left:0%;
+    height: 160vh;
+    width: 100vw;    
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width :100%
+    
+    
+}
+.photo-item{
+    padding-top: 50px;
+    margin-top: 30px;
+    width: 25%;
+    height: 400px;
+    overflow: hidden;
+    
+    
+}
+.photo-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 0px;
+
+}
+
+
+
+
+/* kalip 2 */
+.whitetwo{
+    position: absolute;
+    top: 390%;
+    left: 0%;
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    color: black;
+    max-width :100%
+    
+    
+}
+.discover-header{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 3em;
+}
+.discover-img{
+    position: absolute;
+    top: 38%;
+    left: 75%;
+    transform: translate(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.img2{
+ border-radius: 15px;
+}
+.discover-header2{
+    position: absolute;
+    top: 38%;
+    left: 30%;
+    transform: translate(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 2em;
+}
+.icon2{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(11, 127, 169);
+}
+.discover-text{
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    transform: translate(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+}
+.discover-img .img2{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 0px;
+    
+}
+.discover-img{
+    width: 25%;
+    height: 400px;
+}
+/* ------  KALİP 3   ---------- */
+ 
+.blacktwo{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 130%;
+    left:0%;
+    height: 65vh;
+    width: 100vw;    
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width :100%
+    
+}
+
+.footer-all{
+    position: relative;
+    text-align: center;
+    margin-top: 90px;
+}
+.socials{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column-gap: 100px
+    
+}
+
+
+
+
+
