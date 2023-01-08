@@ -4,6 +4,8 @@
 
 I made this with vanilla VS Code. I'll continue to develop this project.
 
+![](source-readme/Discover.jpg)
+
 
 ## Warning !!
 
