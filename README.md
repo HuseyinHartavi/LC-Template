@@ -16,7 +16,7 @@ I made this with vanilla VS Code. I'll continue to develop this project.
   
 ## Used Technologies
 
-**Client:** Visual Studio Code
+**Editor:** Visual Studio Code
 
 **Tools:** Null
 
